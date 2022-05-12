@@ -1,6 +1,6 @@
 {
   "name": "everything-store",
-  "proxy": "http://127.0.0.1:5000/",
+  "proxy": "https://everythingstore-app.herokuapp.com/",
   "secure": false,
   "private": true,
   "dependencies": {
