@@ -7,7 +7,7 @@ import {
 
 export const addToCart =
   (productId, qty, size) => async (dispatch, getState) => {
-    const { data } = await axios.get(`/api/products/${productId}`);
+    const { data } = await axios.get(`https://everythingstore-app.herokuapp.com/api/products/${productId}`);
     dispatch({
       type: CART_ADD_ITEM,
       payload: {
